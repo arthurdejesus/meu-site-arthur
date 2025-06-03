@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #000;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.botao:hover {
+    background-color: #444;
+}
+
+/* Galeria */
+.galeria {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.galeria h2 {
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    margin-bottom: 10px;
+}
+
+/* Sobre e Contato */
+.sobre, .contato {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
